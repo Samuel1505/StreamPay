@@ -89,7 +89,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -115,7 +115,7 @@ export default function AboutPage() {
             {values.map((value, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-3xl p-8 hover:bg-white/[0.08] transition-all duration-300"
+                className="glass-panel rounded-3xl p-8 hover:bg-white/8 transition-all duration-300"
               >
                 <div className="inline-flex p-4 rounded-2xl bg-primary/20 mb-6">
                   <value.icon className="w-8 h-8 text-primary" />
@@ -135,7 +135,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">
@@ -207,7 +207,7 @@ export default function AboutPage() {
               Be part of the future of payments. Start streaming today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
+              <button className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                 Get Started
               </button>
               <button className="inline-flex items-center gap-2 px-8 py-4 glass-light rounded-full font-medium text-text-primary transition-all duration-300 hover:bg-white/10">
