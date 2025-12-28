@@ -9,7 +9,7 @@ export function CTA() {
       <div className="max-w-5xl mx-auto">
         <div className="glass-panel rounded-3xl p-12 md:p-16 text-center relative overflow-hidden">
           {/* Background gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-br from-primary/20 via-accent/10 to-transparent" />
           
           <div className="relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
