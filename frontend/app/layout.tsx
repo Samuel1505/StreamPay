@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Web3Provider } from './providers';
+import { Header } from './components/Header';
 
 export const metadata: Metadata = {
   title: "StreamPay - Real-Time Payment Streaming",
@@ -16,7 +17,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <Web3Provider>
-          {children}
+          <Header />
+          <div className="pt-20">
+            {children}
+          </div>
         </Web3Provider>
       </body>
     </html>
