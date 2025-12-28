@@ -46,13 +46,13 @@ export function HowItWorks() {
         {/* Steps */}
         <div className="relative">
           {/* Connection Line */}
-          <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-gradient-to-b from-primary via-accent to-secondary hidden md:block" />
+          <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-linear-to-b from-primary via-accent to-secondary hidden md:block" />
           
           <div className="space-y-12">
             {steps.map((step, index) => (
               <div key={index} className="relative flex gap-8 items-start">
                 {/* Step Number */}
-                <div className="relative z-10 flex-shrink-0">
+                <div className="relative z-10 shrink-0">
                   <div className="w-16 h-16 rounded-full glass-panel flex items-center justify-center border-2 border-primary">
                     <span className="text-xl font-bold text-gradient">{step.number}</span>
                   </div>

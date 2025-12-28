@@ -23,7 +23,7 @@ const useCases = [
 
 export function UseCases() {
   return (
-    <section className="relative py-32 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+    <section className="relative py-32 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-20">
@@ -40,7 +40,7 @@ export function UseCases() {
           {useCases.map((useCase, index) => (
             <div
               key={index}
-              className="glass-panel rounded-3xl p-8 hover:bg-white/[0.08] transition-all duration-300"
+              className="glass-panel rounded-3xl p-8 hover:bg-white/8 transition-all duration-300"
             >
               <div className="inline-flex p-4 rounded-2xl bg-primary/20 mb-6">
                 <useCase.icon className="w-8 h-8 text-primary" />
