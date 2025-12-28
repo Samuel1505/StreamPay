@@ -113,7 +113,7 @@ export default function FeaturesPage() {
             <p className="text-xl text-text-secondary mb-8">
               Join thousands of users streaming payments on-chain
             </p>
-            <button className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
+            <button className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
               Get Started
             </button>
           </div>
