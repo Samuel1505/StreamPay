@@ -131,7 +131,7 @@ export default function DocsPage() {
             {quickLinks.map((link, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-2xl p-6 hover:bg-white/[0.08] transition-all duration-300 cursor-pointer group"
+                className="glass-panel rounded-2xl p-6 hover:bg-white/8 transition-all duration-300 cursor-pointer group"
               >
                 <h3 className="font-bold mb-2 text-text-primary group-hover:text-primary transition-colors">
                   {link.title}
