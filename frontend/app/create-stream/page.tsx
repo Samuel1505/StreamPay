@@ -168,7 +168,7 @@ export default function CreateStreamPage() {
               </Link>
               <button
                 type="button"
-                className="flex-1 py-3 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105"
+                className="flex-1 py-3 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105"
               >
                 Create Stream
               </button>
