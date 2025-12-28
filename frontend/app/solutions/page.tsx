@@ -139,7 +139,7 @@ export default function SolutionsPage() {
             {solutions.map((solution, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-3xl p-8 hover:bg-white/[0.08] transition-all duration-300"
+                className="glass-panel rounded-3xl p-8 hover:bg-white/8 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-6">
                   <div className="inline-flex p-4 rounded-2xl bg-primary/20">
