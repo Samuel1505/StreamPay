@@ -132,7 +132,7 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Technical Overview */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">
