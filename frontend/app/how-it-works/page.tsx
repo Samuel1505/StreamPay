@@ -98,7 +98,7 @@ export default function HowItWorksPage() {
               {steps.map((step, index) => (
                 <div key={index} className="relative flex gap-8 items-start">
                   {/* Step Number & Icon */}
-                  <div className="relative z-10 flex-shrink-0">
+                  <div className="relative z-10 shrink-0">
                     <div className="w-16 h-16 rounded-full glass-panel flex items-center justify-center border-2 border-primary mb-4">
                       <span className="text-xl font-bold text-gradient">{step.number}</span>
                     </div>
