@@ -139,7 +139,7 @@ export default function SolutionsPage() {
             {solutions.map((solution, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-3xl p-8 hover:bg-white/[0.08] transition-all duration-300"
+                className="glass-panel rounded-3xl p-8 hover:bg-white/8 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-6">
                   <div className="inline-flex p-4 rounded-2xl bg-primary/20">
@@ -163,7 +163,7 @@ export default function SolutionsPage() {
                   <ul className="grid grid-cols-2 gap-2">
                     {solution.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2 text-text-secondary text-sm">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -192,7 +192,7 @@ export default function SolutionsPage() {
               Need a custom solution? Let's talk about your specific use case
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
+              <button className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
                 Get Started
               </button>
               <button className="inline-flex items-center gap-2 px-8 py-4 glass-light rounded-full font-medium text-text-primary transition-all duration-300 hover:bg-white/10">

@@ -71,7 +71,7 @@ export default function ReceivedPage() {
               ${totalAvailable.toFixed(2)}
             </div>
             <div className="text-sm text-text-secondary">Available to Withdraw</div>
-            <button className="mt-4 w-full py-2 bg-gradient-to-r from-primary to-accent rounded-lg font-medium text-white transition-all hover:shadow-lg hover:shadow-primary/50">
+            <button className="mt-4 w-full py-2 bg-linear-to-r from-primary to-accent rounded-lg font-medium text-white transition-all hover:shadow-lg hover:shadow-primary/50">
               Withdraw All
             </button>
           </div>
@@ -148,7 +148,7 @@ export default function ReceivedPage() {
               {/* Progress Bar */}
               <div className="relative h-2 bg-surface rounded-full overflow-hidden">
                 <div 
-                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary to-accent rounded-full transition-all"
+                  className="absolute inset-y-0 left-0 bg-linear-to-r from-primary to-accent rounded-full transition-all"
                   style={{ width: `${stream.progress}%` }}
                 />
               </div>
