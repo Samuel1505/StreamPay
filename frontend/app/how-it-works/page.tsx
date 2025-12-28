@@ -92,7 +92,7 @@ export default function HowItWorksPage() {
           
           <div className="relative">
             {/* Connection Line */}
-            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-gradient-to-b from-primary via-accent to-secondary hidden md:block" />
+            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-linear-to-b from-primary via-accent to-secondary hidden md:block" />
             
             <div className="space-y-12">
               {steps.map((step, index) => (
