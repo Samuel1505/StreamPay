@@ -147,7 +147,7 @@ export default function HowItWorksPage() {
             {technicalSteps.map((step, index) => (
               <div key={index} className="glass-panel rounded-2xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                  <div className="shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
                     {index + 1}
                   </div>
                   <div>
