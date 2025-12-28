@@ -150,7 +150,7 @@ export default function DocsPage() {
       </section>
 
       {/* Documentation Categories */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center">Browse Documentation</h2>
           
