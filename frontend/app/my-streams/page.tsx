@@ -90,7 +90,7 @@ export default function MyStreamsPage() {
           </div>
           <Link 
             href="/create-stream"
-            className="px-6 py-3 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105"
+            className="px-6 py-3 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105"
           >
             + Create Stream
           </Link>
@@ -201,7 +201,7 @@ export default function MyStreamsPage() {
               {/* Progress Bar */}
               <div className="relative h-2 bg-surface rounded-full overflow-hidden">
                 <div 
-                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary to-accent rounded-full transition-all"
+                  className="absolute inset-y-0 left-0 bg-linear-to-r from-primary to-accent rounded-full transition-all"
                   style={{ width: `${stream.progress}%` }}
                 />
               </div>
