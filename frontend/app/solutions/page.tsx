@@ -163,7 +163,7 @@ export default function SolutionsPage() {
                   <ul className="grid grid-cols-2 gap-2">
                     {solution.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2 text-text-secondary text-sm">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
