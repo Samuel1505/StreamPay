@@ -142,7 +142,7 @@ export default function DashboardPage() {
                   {/* Progress Bar */}
                   <div className="relative h-2 bg-surface rounded-full overflow-hidden">
                     <div 
-                      className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary to-accent rounded-full"
+                      className="absolute inset-y-0 left-0 bg-linear-to-r from-primary to-accent rounded-full"
                       style={{ width: `${stream.progress}%` }}
                     />
                   </div>
