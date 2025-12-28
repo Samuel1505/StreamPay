@@ -116,7 +116,7 @@ export default function AnalyticsPage() {
                   </div>
                   <div className="relative h-3 bg-surface rounded-full overflow-hidden">
                     <div 
-                      className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary to-accent rounded-full transition-all"
+                      className="absolute inset-y-0 left-0 bg-linear-to-r from-primary to-accent rounded-full transition-all"
                       style={{ width: `${(data.amount / maxAmount) * 100}%` }}
                     />
                   </div>
@@ -136,7 +136,7 @@ export default function AnalyticsPage() {
                   <span className="text-sm text-text-secondary">48%</span>
                 </div>
                 <div className="relative h-3 bg-surface rounded-full overflow-hidden">
-                  <div className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary to-accent rounded-full w-[48%]" />
+                  <div className="absolute inset-y-0 left-0 bg-linear-to-r from-primary to-accent rounded-full w-[48%]" />
                 </div>
                 <div className="text-xs text-text-muted mt-1">$21,710</div>
               </div>
@@ -147,7 +147,7 @@ export default function AnalyticsPage() {
                   <span className="text-sm text-text-secondary">32%</span>
                 </div>
                 <div className="relative h-3 bg-surface rounded-full overflow-hidden">
-                  <div className="absolute inset-y-0 left-0 bg-gradient-to-r from-secondary to-primary rounded-full w-[32%]" />
+                  <div className="absolute inset-y-0 left-0 bg-linear-to-r from-secondary to-primary rounded-full w-[32%]" />
                 </div>
                 <div className="text-xs text-text-muted mt-1">$14,474</div>
               </div>
@@ -158,7 +158,7 @@ export default function AnalyticsPage() {
                   <span className="text-sm text-text-secondary">20%</span>
                 </div>
                 <div className="relative h-3 bg-surface rounded-full overflow-hidden">
-                  <div className="absolute inset-y-0 left-0 bg-gradient-to-r from-accent to-secondary rounded-full w-[20%]" />
+                  <div className="absolute inset-y-0 left-0 bg-linear-to-r from-accent to-secondary rounded-full w-[20%]" />
                 </div>
                 <div className="text-xs text-text-muted mt-1">$9,046</div>
               </div>

@@ -131,7 +131,7 @@ export default function DocsPage() {
             {quickLinks.map((link, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-2xl p-6 hover:bg-white/[0.08] transition-all duration-300 cursor-pointer group"
+                className="glass-panel rounded-2xl p-6 hover:bg-white/8 transition-all duration-300 cursor-pointer group"
               >
                 <h3 className="font-bold mb-2 text-text-primary group-hover:text-primary transition-colors">
                   {link.title}
@@ -150,7 +150,7 @@ export default function DocsPage() {
       </section>
 
       {/* Documentation Categories */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center">Browse Documentation</h2>
           
@@ -158,7 +158,7 @@ export default function DocsPage() {
             {docCategories.map((category, index) => (
               <div
                 key={index}
-                className="glass-panel rounded-3xl p-8 hover:bg-white/[0.08] transition-all duration-300"
+                className="glass-panel rounded-3xl p-8 hover:bg-white/8 transition-all duration-300"
               >
                 <div className="inline-flex p-4 rounded-2xl bg-primary/20 mb-6">
                   <category.icon className="w-8 h-8 text-primary" />

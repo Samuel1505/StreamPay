@@ -92,13 +92,13 @@ export default function HowItWorksPage() {
           
           <div className="relative">
             {/* Connection Line */}
-            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-gradient-to-b from-primary via-accent to-secondary hidden md:block" />
+            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-linear-to-b from-primary via-accent to-secondary hidden md:block" />
             
             <div className="space-y-12">
               {steps.map((step, index) => (
                 <div key={index} className="relative flex gap-8 items-start">
                   {/* Step Number & Icon */}
-                  <div className="relative z-10 flex-shrink-0">
+                  <div className="relative z-10 shrink-0">
                     <div className="w-16 h-16 rounded-full glass-panel flex items-center justify-center border-2 border-primary mb-4">
                       <span className="text-xl font-bold text-gradient">{step.number}</span>
                     </div>
@@ -132,7 +132,7 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Technical Overview */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-surface/50 to-transparent">
+      <section className="py-20 px-6 bg-linear-to-b from-transparent via-surface/50 to-transparent">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">
@@ -147,7 +147,7 @@ export default function HowItWorksPage() {
             {technicalSteps.map((step, index) => (
               <div key={index} className="glass-panel rounded-2xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                  <div className="shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
                     {index + 1}
                   </div>
                   <div>
@@ -175,7 +175,7 @@ export default function HowItWorksPage() {
             <p className="text-xl text-text-secondary mb-8">
               Start streaming payments in less than 5 minutes
             </p>
-            <button className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
+            <button className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-primary to-accent rounded-full font-medium text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/50 hover:scale-105">
               <span>Get Started</span>
               <ArrowRight className="w-5 h-5" />
             </button>
